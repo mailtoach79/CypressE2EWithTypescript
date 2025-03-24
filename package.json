@@ -1,0 +1,43 @@
+{
+  "name": "cypresse2ewithtypescript",
+  "version": "1.0.0",
+  "description": "Cypress with Cucumber BDD and Typescript",
+  "keywords": [
+    "Cypress",
+    "Cucumber",
+    "Typescript"
+  ],
+  "homepage": "https://github.com/mailtoach79/CypressE2EWithTypescript#readme",
+  "bugs": {
+    "url": "https://github.com/mailtoach79/CypressE2EWithTypescript/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mailtoach79/CypressE2EWithTypescript.git"
+  },
+  "license": "ISC",
+  "author": "Sankar Dakoju",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^22.0.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.4",
+    "cypress": "^14.2.0",
+    "esbuild": "^0.25.1",
+    "multiple-cucumber-html-reporter": "^3.9.2",
+    "typescript": "^5.8.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "step_definitions": "cypress/e2e/Registration",
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  }
+}
