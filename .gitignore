@@ -6,3 +6,4 @@ cypress/cache/
 cypress/results/
 cypress/cucumber-json/
 cypress/reports/
+final-json/
