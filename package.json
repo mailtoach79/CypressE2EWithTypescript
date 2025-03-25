@@ -20,7 +20,10 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run --spec **/*.feature",
+    "generate-report": "node cypress/generate-report.js"
   },
   "devDependencies": {
     "@badeball/cypress-cucumber-preprocessor": "^22.0.1",
@@ -32,12 +35,6 @@
   },
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": true,
-    "step_definitions": "cypress/e2e/Registration",
-    "cucumberJson": {
-      "generate": true,
-      "outputFolder": "cypress/cucumber-json",
-      "filePrefix": "",
-      "fileSuffix": ".cucumber"
-    }
+    "step_definitions": "cypress/e2e/Registration"
   }
 }
