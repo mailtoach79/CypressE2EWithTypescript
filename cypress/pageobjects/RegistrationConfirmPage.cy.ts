@@ -13,7 +13,7 @@ export class registerConfirmPage {
     //     return '';
     //   }
 
-    accountSuccessMessage() {
+    accountSuccessMessage():object {
         // cy.get(this.weblocators.accountCreatMessage).should('have.value', 'Your Account Has Been Created!');
         return cy.get(this.weblocators.accountCreatMessage);
     }
