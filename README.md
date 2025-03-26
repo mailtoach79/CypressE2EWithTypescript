@@ -1,4 +1,7 @@
+Cypress TypeScript Project with Cucumber and HTML Reporting
+
 Project Overview:
+
 This project is a Cypress automation framework using TypeScript and Cucumber for Behavior-Driven Development (BDD). It includes support for generating detailed HTML reports with multiple-cucumber-html-reporter.
 
 It Follows Page Object Model where Every page in the Front End will have a Typescript class with the Locators and Methods related to that page. Step Definitions class acts as an interface to feature files and page Objects Feature Files will have test scenarios in BDD model for wider audience.
