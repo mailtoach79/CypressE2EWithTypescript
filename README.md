@@ -1,4 +1,4 @@
-Cypress TypeScript Project with Cucumber and HTML Reporting
+Cypress TypeScript Project with Cucumber BDD and HTML Reporting
 
 # Project Overview:
 
@@ -8,7 +8,10 @@ It Follows Page Object Model where Every page in the Front End will have a Types
 
 PreRequisites: --> install Node latest version
 
-**Installation & Setup**
+## Plugins
+  **Cypress-Cucumber-PreProcessor** and **Multiple-Cucumber-HTML-Reporter**
+
+## Installation & Setup
 
 1️⃣ Clone the Repository
 
