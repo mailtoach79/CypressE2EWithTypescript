@@ -21,5 +21,28 @@
         ]
       }
     ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Registration.feature",
+    "uri": "cypress\\e2e\\Registration.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "name": [
+          "User register ecommerce application.",
+          "Registeration flow"
+        ],
+        "steps": [
+          {
+            "keyword": "Step",
+            "name": "Step",
+            "result": {
+              "status": "failed"
+            }
+          }
+        ]
+      }
+    ]
   }
 ]
